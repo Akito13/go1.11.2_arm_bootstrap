@@ -3,7 +3,7 @@
 
 
 1. mkdir ~/src ; cd ~/src ; git clone https://git.greenfinch.tk/Akito/go1.11.2_bootstrap.git
-2. `export GOROOT_BOOTSTRAP=/home/insert-your-username/src/go-linux-arm-bootstrap`
+2. `export GOROOT_BOOTSTRAP=/home/pi/src/go-linux-arm-bootstrap`
 3. You are in the ~/src folder now. Now you get the newest go (using the master branch):
     1. `git clone https://go.googlesource.com/go`
     2. `cd go`
@@ -17,21 +17,24 @@
 5. (Optional) Test your Go installation:
     1. `cd .. ; cd bin; nano hello.go`
     2. You paste in the following:
-```
-package main
+    
+        ```go
+        package main
 
-import "fmt"
+        import "fmt"
 
-func main() {
+        func main() {
 
-        fmt.Printf("It woooooooooorks!\n")
+                fmt.Printf("It woooooooooorks!\n")
 
-}
-```
-5. Now do `./go run hello.go` and output should be `It woooooooooorks!`.
+        }
+        ```
 
-6. Set your environment ready to GO:
-    1. `export PATH="$PATH:/home/insert-your-username/src/go/bin"`
+    3. Now do `./go run hello.go` and output should be `It woooooooooorks!`.
+
+
+7. Set your environment ready to GO:
+    1. `export PATH="$PATH:/home/pi/src/go/bin"`
     2. `export GOPATH=$HOME/go`
-
-7. Check if PATH is set correctly: `go version`
+    
+8. Check if PATH is set correctly: `go version`
