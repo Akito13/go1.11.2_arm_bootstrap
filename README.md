@@ -7,7 +7,11 @@
 3. You are in the ~/src folder now. Now you get the newest go (using the master branch):
     1. `git clone https://go.googlesource.com/go`
     2. `cd go`
-    3. (Optional) You may also switch to go1.11.2 instead of using the master branch, if you want to be extra safe, like that: `git checkout go1.11.2`
+    3. (Optional) You may also switch to go1.11.2 instead of using the master branch, if you want to be extra safe, like that: 
+    
+        ```bash
+        git checkout go1.11.2
+        ```
 
 4. You compile the actual Go that Raspberry Pi will use now:
     1. `cd src`
