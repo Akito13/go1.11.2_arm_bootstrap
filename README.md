@@ -2,7 +2,7 @@
 
 
 
-1. mkdir ~/src ; cd ~/src ; git clone https://github.com/Akito13/go1.11.2_arm_bootstrap.git
+1. `mkdir ~/src ; cd ~/src ; git clone https://github.com/Akito13/go1.11.2_arm_bootstrap.git`
 2. `export GOROOT_BOOTSTRAP=/home/pi/src/go1.11.2_arm_bootstrap/go-linux-arm-bootstrap`
 3. You are in the ~/src folder now. Now you get the newest go (using the master branch):
     1. `git clone https://go.googlesource.com/go`
