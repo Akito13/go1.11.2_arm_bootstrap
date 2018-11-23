@@ -1,4 +1,4 @@
-# Bootstrapping go1.11.2
+# Bootstrapping go1.11.2 on Raspberry Pi
 
 
 
