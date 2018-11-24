@@ -18,7 +18,7 @@
    
    
     ```bash
-    mkdir ~/src ; cd ~/src ; git clone https://git.greenfinch.tk/Akito/go1.11.2_arm_bootstrap.git
+    mkdir ~/src ; cd ~/src ; git clone https://github.com/Akito13/go1.11.2_arm_bootstrap.git
     export GOROOT_BOOTSTRAP=/home/pi/src/go1.11.2_arm_bootstrap/go-linux-arm-bootstrap
     ```
    
