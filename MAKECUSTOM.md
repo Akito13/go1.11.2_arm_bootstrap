@@ -1,10 +1,17 @@
 # Cross-compiling go1.11.2 bootstrap for ARM i.e. Raspberry Pi
 #### Follow the instructions exactly step by step to make sure the directories are created as intended. Failing to do so will make everything fail.
+##### All this must be applied on the host desktop computer with an x86 CPU architecture.
+
+
+
+-----
+
+
 
 1. Install dependencies
 
     ```bash
-    sudo apt install wget git make build-essential
+    sudo apt install wget git build-essential
     ```
 2. Get go1.4 toolchain bootstrap source code
 
@@ -23,8 +30,7 @@
 4. Get go1.11.2 for the host system assuming the host system is of the `amd64` architecture
     
     ```bash
-    mkdir go1.11.2 ; cd go1.11.2
-    wget https://dl.google.com/go/go1.11.2.linux-amd64.tar.gz
+    mkdir go1.11.2 ; cd go1.11.2 && wget https://dl.google.com/go/go1.11.2.linux-amd64.tar.gz
     tar zxvf go1.11.2.linux-amd64.tar.gz --strip-components 1 && rm go1.11.2.linux-amd64.tar.gz && cd src
     ```
     
