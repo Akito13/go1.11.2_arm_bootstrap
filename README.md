@@ -1,3 +1,8 @@
+# Refer to [this automated installation method](https://github.com/Akito13/serving-hookers#go-1112-on-raspberry-pi-armv6) instead of using this repository directly!
+____
+____
+____
+____
 # Bootstrapping go1.11.2 on Raspberry Pi
 #### Follow the instructions exactly step by step to make sure the directories are created as intended. Failing to do so will make everything fail.
 ##### All this must be applied on the target Raspberry Pi system.
